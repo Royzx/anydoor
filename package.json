@@ -1,0 +1,27 @@
+{
+    "name": "anydoor",
+    "version": "1.0.0",
+    "description": "Roy NodeJs static Web server",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "fix": "eslint --fix ."
+    },
+    "pre-commit": [
+        "fix",
+        "lint"
+    ]
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Royzx/anydoor.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Royzx/anydoor/issues"
+    },
+    "homepage": "https://github.com/Royzx/anydoor#readme",
+    "devDependencies": {
+        "pre-commit": "^1.2.2"
+    }
+}
